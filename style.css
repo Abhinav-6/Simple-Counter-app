@@ -1,0 +1,38 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(244, 242, 248);
+    display: flex;
+    justify-content: center;
+   background-color: rgb(214, 205, 194);
+}
+.container{
+   width: 60%;
+   font-family: 'Be Vietnam Pro', sans-serif;
+   display: flex;
+   flex-direction: column;
+   align-items: center;
+   justify-content: center;
+   padding-top: 2rem;
+   background-color: rgb(247, 239, 230);
+   height: 80vh;
+}
+.count{
+    color: rgb(23, 19, 87);
+    padding: 1.5rem;
+    font-size: 2rem;
+}
+.num{
+    color: rgb(56, 88, 23);
+    padding-bottom: 1.5rem;
+    font-size: 3rem;
+}
+
+.btn{
+    padding: .5rem;
+    border-radius: .5rem;
+    margin: 1rem;
+}
